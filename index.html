@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/styles/styles.css">
+
+  <script src="https://unpkg.com/feather-icons"></script>
+  <title>New Tab</title>
+</head>
+
+<body>
+  <main>
+    <button id="theme-toggle">
+      <!-- icon -->
+    </button>
+    <div id="card">
+      <section id="timer-container">
+        <div id="timer">
+          <p id="hour">
+            0 <br> 0
+          </p>
+          :
+          <p id="minutes">
+            0 <br> 0
+          </p>
+        </div>
+      </section>
+
+      <section id="content">
+        <div id="header">
+          <p id="greeting-title">
+            Good Morning, John Doe
+          </p>
+          <p id="greeting-date">
+            Today is Saturday, May 15, 2021.
+          </p>
+        </div>
+        <div style="height: 2rem;"></div>
+        <div class="links-wrapper">
+          <!-- links -->
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+
+<script src="config.js"></script>
+
+<script src="/scripts/theme.js"></script>
+<script src="/scripts/time.js"></script>
+<script src="/scripts/greeting.js"></script>
+<script src="/scripts/links.js"></script>
+
+<script>
+  feather.replace();
+</script>
+
+</html>
