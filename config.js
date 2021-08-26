@@ -10,7 +10,7 @@ const CONFIG = {
 
   // Weather
   weatherKey: 'InsertYourAPIKeyHere123456',
-  weatherUnit: 'C',
+  weatherUnit: 'C',//"C" for Celsius or "F" for Fahrenheit
   weatherLatitude: '37.774929',
   weatherLongitude: '-122.419418',
 
