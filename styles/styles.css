@@ -112,7 +112,8 @@ main {
   grid-template-areas: 
   'greeting-title  ⛅'
   'greeting-date greeting-date';
-  grid-template-columns: auto 50px;
+
+  grid-template-columns: auto auto;
   grid-template-rows: auto auto;
 
   word-break: break-word;
@@ -121,26 +122,36 @@ main {
   opacity: 0.7;
 }
 
-#header p:nth-of-type(1) {
+#greeting-title {
   grid-area: greeting-title;
 
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
-#header p:nth-of-type(2) {
+#greeting-date {
   grid-area: greeting-date;
 
   font-size: 1.1rem;
   margin-bottom: 1rem;
 }
 
-#⛅ {
+#weather-container {
   grid-area: ⛅;
 
   display: flex; 
   justify-content: flex-end;
   align-items:flex-start;
+}
+
+.weather-icon img {
+  width: 1.5rem;
+  height: 1.5rem
+}
+
+.weather-value p {
+  font-size: 1rem;
+  margin-left: 0.5rem;
 }
 
 .links-wrapper {
@@ -158,7 +169,7 @@ main {
   color: var(--text-secondary-hover);
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:768px) {
   .links-wrapper {
     display: grid;
     gap: 1rem;
@@ -172,7 +183,7 @@ main {
   }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:768px) {
   #timer-container {
     display: none;
   }

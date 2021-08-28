@@ -10,8 +10,6 @@ const clock = () => {
   document.getElementById('hour').innerHTML = `${hh[0]} <br> ${hh[1]}`;
   document.getElementById('minutes').innerHTML = `${min[0]} <br> ${min[1]}`;
 
-  console.log(hh);
-
   setTimeout(clock, 1000);
 };
 
