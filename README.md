@@ -1,6 +1,6 @@
 # Startpage W
 
-Try to clone [refact0rs](https://github.com/refact0r/startpage) startpage but w nord theme and light/dark theme switch. Just to practice vanilla HTML/CSS/JS
+Attempt to clone [refact0rs](https://github.com/refact0r/startpage) startpage but w nord theme and light/dark theme switch. Just to practice vanilla HTML/CSS/JS
 
 ![startpage](https://user-images.githubusercontent.com/53442803/131268711-91abdaf6-35e1-421d-b115-e005b2f6a7a8.png)
 
