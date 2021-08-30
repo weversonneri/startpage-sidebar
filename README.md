@@ -16,8 +16,7 @@ Try to clone [refact0rs](https://github.com/refact0r/startpage) startpage but w 
 
 1. Fork this repository
 2. Enable Github Pages:
-  <br>
-  `Settings > Pages > Source [Select branch] > Save`
+`Settings > Pages > Source [Select branch] > Save`
 3. Use the Github Pages link to set as home page on browser.
 
 
