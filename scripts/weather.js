@@ -25,7 +25,7 @@ async function getWeather() {
       ? convertToCelsius(dataWeatherValue)
       : convertToFahrenheit(dataWeatherValue);
 
-    weatherIcon.innerHTML = `<img src="/assets/icons/${dataIconId}.png" alt="weather icon">`;
+    weatherIcon.innerHTML = `<img src="assets/icons/${dataIconId}.png" alt="weather icon">`;
     weatherValue.innerHTML = convertedWeather;
 
   } catch (error) {
