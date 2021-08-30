@@ -20,4 +20,5 @@ Try to clone [refact0rs](https://github.com/refact0r/startpage) startpage but w 
   `Settings > Pages > Source [Select branch] > Save`
 3. Use the Github Pages link to set as home page on browser.
 
-As New Tab for chromium base browsers, you can use [this extension to customize the new tab URL](https://chrome.google.com/webstore/detail/custom-new-tab-url/mmjbdbjnoablegbkcklggeknkfcjkjia)
+
+As New Tab for chromium based browsers, you can use [this extension to customize the new tab URL](https://chrome.google.com/webstore/detail/custom-new-tab-url/mmjbdbjnoablegbkcklggeknkfcjkjia)
